@@ -1,5 +1,5 @@
 <?php
-include("Mon portfolio.html");
+include_once('index.html');
 
 
 ?>
