@@ -1,0 +1,255 @@
+*{
+	padding: 0;
+	margin: 0;
+	text-decoration: none;
+	font-family: fantasy;
+}
+body{
+	font-family: fantasy;
+	background-image: linear-gradient(135deg, #04cffc, #56e134, #fdf60b, #fc0000, #fd8f0b, #fdf60b);
+	background-size: 200% 200%;
+	animation: animate 15% infinite;
+}
+#keyframes animate{
+	0% {background-position: 0% 50%;}
+	50%{background-position: 100% 50%;}
+	100%{background-position: 50% 100%;}
+}
+	
+.navbar{
+	width: 100%;
+	position: fixed;
+	background-color: orange;
+	padding: 15px;
+}
+.navbar .max-width{
+	width: 1300px;
+	display: flex;
+	justify-content: space-between;
+	margin: auto;
+}
+.logo a{
+	color: #fff;
+	font-size: 50px;
+	font-weight: 500;
+}
+.logo a span{
+	color: black;
+}
+.Menu{
+	padding-top: 10px;
+}
+.Menu li{
+	display: inline-block;
+}
+.Menu li a{
+	color: white;
+	font-size: 25px;
+	font-weight: 200;
+	margin-left: 25px;
+	transition: color 2s;
+}
+.Menu li a:hover{
+	color: black;
+}
+/************************************************************/
+.home{
+	height: 800px;
+	background: url('IMG_2338.JPG');
+	display: flex;
+}
+.home .max-width{
+	color: white;
+	margin: auto 120px;
+
+}
+.home .max-width .texte1{
+	font-size: 40px;
+	font-weight: 600;
+}
+.home .max-width .texte2{
+	font-size: 60px;
+	font-weight: 500;
+	color: orange;
+}
+.home .max-width .texte3{
+	font-size: 50px;
+	font-weight: 500;
+
+}
+.home .max-width .texte3 span{
+	color: orange;
+}
+.home .max-width .button-1{
+	display: inline-block;
+	color: white;
+	font-size: 40px;
+	font-weight: 400;
+	background-color: orange;
+	border: 2px solid orange;
+	border-radius: 20px;
+	padding: 10px 40px;
+	margin-bottom: 10px;
+
+}
+.home .max-width .button-1:hover{
+	background: none;
+	background-color: black;
+	color: crimson;
+}
+/***********************************************/
+.about .title1{
+	margin-top: 50px;
+	font-size: 40px;
+	font-weight: 500;
+	text-align: center;
+	text-decoration: underline orange;
+	margin-bottom: 100px;
+
+
+}
+.about .about-content{
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	padding: 0px 100px;
+}
+.about .div-left{
+	width: 45%;	
+}
+.about .div-right{
+	width: 55%;
+}
+.about .div-left img{
+	height: 400px;
+	width: 400px
+	border:5px dashed orange;
+	border-radius:15px;
+
+}
+.about .div-right .text{
+	font-size: 35px;
+	font-weight: 600;
+	margin-bottom: 10px;
+
+}
+.about .div-right .text span{
+	color: orange;
+}
+.about .div-right p{
+	font-size: 20px;
+	font-family: serif;
+	text-align: justify;
+
+}
+.about .div-right a{
+	display: inline-block;
+	color: white;
+	font-size: 25px;
+	font-weight: 400;
+	background-color: orange;
+	border: 2px solid orange;
+	border-radius: 20px;
+	padding: 10px 40px;
+	margin-bottom: 25px;
+	margin-top: 10px;
+}
+.about .div-right a:hover{
+	background: none;
+	background-color: black;
+	color: crimson;
+}
+/************************************************************/
+
+
+.Myteam .title2{
+	margin-top: 50px;
+	font-size: 40px;
+	font-weight: 500;
+	text-align: center;
+	text-decoration: underline orange;
+	margin-bottom: 10px;
+}
+.Myteam .title3{
+	margin-top: 50px;
+	font-size: 40px;
+	font-weight: 500;
+	text-align: center;
+	margin-bottom: 50px;
+	text-decoration: underline orange;
+}
+.Myteam .menbres{
+	display: flex;
+	justify-content: space-around;
+	margin-bottom: 50px;
+}
+.Myteam .menbres .menbre1{
+	background-color: black;
+	height: 290px;
+	width: 300px;
+	border-radius: 10px;
+}
+.Myteam .menbre1 .M1{
+	height: 110px;
+	width: 100px;
+	border: 5px solid orange;
+	border-radius: 60px;
+	margin:15px 100px 15px 95px;
+
+}
+.menbre1 p{
+	color: white;
+	font-size: 20px;
+	text-align: center;
+
+}
+.menbre1 p:hover{
+	color: crimson;
+	transition: color 2s;
+}
+.menbre1 .M2{
+	text-decoration: underline crimson;
+}
+/****************************************************************/
+.info .Principal{
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	margin-bottom: 20px;
+	margin-top: 50px
+}
+.info .Principal .JN a{
+	color: white;
+	font-size: 20px;
+	font-weight: 400;
+	background-color: orange;
+	border: 5px solid;
+	border-color: orange;
+	border-radius: 20px;
+	padding: 10px 40px;
+
+	
+}
+.Principal .JM h2:hover{
+	color: crimson;
+	transition: 2s color;
+}
+.Principal .JN h2:hover{
+	color: crimson;
+	transition: 2s color;
+}
+.Principal .JM p{
+	font-size: 25px;
+	font-family: 200;
+	
+}
+.Principal .JM .T{
+	color: black;
+	font-size: 25px;
+	font-weight: 400;
+	background-color: red;
+	border: 2px solid red;
+	border-radius: 70px;
+	padding: 10px 20px;
+	text-align: center;
+}
